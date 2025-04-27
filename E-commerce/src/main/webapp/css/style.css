@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* Body */
+body {
+    background-color: #E2C456;
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    color: #3E2C1C;
+}
+
+/* Titles */
+h1, h2, h3, h4 {
+    color: #5D3A00;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0.5em 0;
+}
+h3#p {
+    text-align: left;
+}
+
+header {
+    background-color: #A76545;
+    padding: 20px;
+    color: white;
+    border-bottom: 5px solid #D8AC9C;
+}
+
+nav {
+    background-color: #FFA55D;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #D8AC9C;
+    color: #3E2C1C;
+}
+
+nav a.active {
+    background-color: #C97B43;
+    color: white;
+}
+
+/* Agrupador */
+.agrupar {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Section */
+section {
+    flex: 3;
+    background: #FFDF88;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(167, 101, 69, 0.5);
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Aside */
+aside {
+    flex: 2;
+    background: #FFDF88;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(167, 101, 69, 0.5);
+}
+
+aside iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #ACC572;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 10px solid #A76545;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
